@@ -5,6 +5,7 @@ body {
 
 .nav a {
   color: #ccc;
+  vertical-align: top;
 }
 
 .banner a {
@@ -83,6 +84,15 @@ p {
   /* display: flex; */
 }
 
+.footer {
+  display: flex;
+}
+
+.footer-box {
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
 .container-main {
   padding-left: 20px;
   padding-right: 20px;
@@ -107,4 +117,42 @@ p {
 
 .download-head {
   font-size: 30px;
+}
+
+img {
+  /* display: block; */
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.footer-text {
+  color: #fff;
+}
+
+.download-whole {
+  margin-left: 1em;
+}
+
+.download-block {
+  background-color: #026e00;
+  color: #fff;
+  padding-top: 10px;
+  padding-left: 0em;
+  padding-right: 0em;
+  margin-left: 1em;
+  margin-right: 1em;
+  width: 207px;
+  height: 81px;
+}
+
+.download-text {
+  font-size: 11px !important;
+}
+
+.low-pad {
+  /* left-padding: 0px;
+  right-padding: 0px;
+  left-margin: 0px;
+  right-margin: 0px; */
+  font-size: 11px !important;
 }
